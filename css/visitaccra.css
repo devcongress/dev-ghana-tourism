@@ -1,0 +1,91 @@
+/* VisitAccra styles
+-------------------------------------------------- */
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Raleway';
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 160px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+.jumbotron .container {
+  margin-top: 100px
+  
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+  height: 600px;
+  color: white;
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../images/bg.jpg");
+
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: cover;
+  border-bottom: solid 10px red;
+}
+
+.jumbotron p {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.m-t-50 {
+  margin-top: -30px;
+}
+
+.m-b-50 {
+  margin-top: 50px;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #e7e7e7;
+}
+
+.navbar a {
+  color: #a9a9a9;
+  font-size: 16px;
+  font-family: open sans;
+}
+
+
+
