@@ -1,0 +1,39 @@
+{
+  "name": "dev-ghana-tourism",
+  "version": "1.0.0",
+  "description": "Learning project for Ghana tourism Website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salisadecade/dev-ghana-tourism.git"
+  },
+  "keywords": [
+    "devcongress",
+    "tourism",
+    "website",
+    "learning"
+  ],
+  "author": "devcongress-community",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salisadecade/dev-ghana-tourism/issues"
+  },
+  "homepage": "https://github.com/salisadecade/dev-ghana-tourism#readme",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "browser-sync": "^2.17.3",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-file-include": "^1.0.0",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-jshint": "^2.0.1",
+    "gulp-newer": "^1.3.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "jshint": "^2.9.3",
+    "jshint-stylish": "^2.2.1"
+  }
+}
