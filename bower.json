@@ -1,0 +1,27 @@
+{
+  "name": "dev-ghana-tourism",
+  "description": "Learning project for Ghana tourism Website",
+  "main": "index.html",
+  "authors": [
+    "devcongress-community"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "devcongress",
+    "tourism",
+    "website",
+    "learning"
+  ],
+  "homepage": "https://github.com/salisadecade/dev-ghana-tourism",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
+  }
+}
