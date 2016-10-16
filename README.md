@@ -3,7 +3,7 @@ Learning Project for Ghana Tourism Website
 
 ## Install
 
-This repository is distributed with [npm][npm]. After [installing npm][install-npm], you can setup with this command.
+This repository is distributed with npm and bower
 
 ```sh
 $ npm install 
