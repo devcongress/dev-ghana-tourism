@@ -1,3 +1,10 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Raleway';
+// endbower
+
 html {
   position: relative;
   min-height: 100%;
@@ -26,16 +33,16 @@ body > .container {
 
 .jumbotron .container {
   margin-top: 100px
-  
+
 }
 
 .jumbotron {
   margin-bottom: 0px;
   height: 600px;
   color: white;
-  background: 
+  background:
     linear-gradient(
-      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
     url("../images/bg.jpg");
