@@ -12,11 +12,13 @@
     "website",
     "learning"
   ],
-  "homepage": "https://github.com/salisadecade/dev-ghana-tourism",
+  "homepage": "https://github.com/McAngelo/dev-ghana-tourism",
   "private": true,
   "dependencies": {
     "bootstrap-sass": "~3.3.5",
-    "modernizr": "~2.8.1"
+    "modernizr": "~2.8.1",
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
   },
   "overrides": {
     "bootstrap-sass": {
@@ -28,7 +30,6 @@
     }
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.1.2"
+    
   }
 }
