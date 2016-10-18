@@ -1,13 +1,18 @@
 {
   "name": "dev-ghana-tourism",
   "version": "1.0.0",
-  "description": "Learning project for Ghana tourism Website",
+  "description": "Learning project for Ghana tourism Website.",
+  "cacheDirectories": ["node_modules", "bower_components" ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nf start",
+    "build": "gulp",
+    "postinstall": "gulp default",
+    "build-assets": "bower install && gulp build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/salisadecade/dev-ghana-tourism.git"
+    "url": "git+https://github.com/McAngelo/dev-ghana-tourism.git"
   },
   "keywords": [
     "devcongress",
@@ -18,14 +23,14 @@
   "author": "devcongress-community",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/salisadecade/dev-ghana-tourism/issues"
+    "url": "https://github.com/McAngelo/dev-ghana-tourism/issues"
   },
-  "homepage": "https://github.com/salisadecade/dev-ghana-tourism#readme",
+  "homepage": "https://github.com/McAngelo/dev-ghana-tourism#readme",
   "private": true,
   "engines": {
     "node": ">=4"
   },
-  "devDependencies": {
+  "dependencies": {
     "babel-core": "^6.4.0",
     "babel-preset-es2015": "^6.3.13",
     "babel-register": "^6.5.2",
